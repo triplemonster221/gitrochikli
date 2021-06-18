@@ -1,3 +1,21 @@
+/*font-family: 'Barlow', sans-serif*/
+
+@font-face {
+  font-family: "SFProDisplay";
+  src: url("../fonts/SFProDisplay-Regular.woff2") format("woff2"),
+       url("../fonts/SFProDisplay-Regular.woff") format("woff");
+       font-style: normal;
+       font-weight: normal;
+}
+
+@font-face {
+  font-family: "SFProDisplay";
+  src: url("../fonts/SFProDisplay-Bold.woff2") format("woff2"),
+       url("../fonts/SFProDisplay-Bold.woff") format("woff");
+       font-style: normal;
+       font-weight: bold;
+}
+
 html {
 	box-sizing: border-box;
 }
@@ -9,9 +27,14 @@ html {
 }
 
 body {
-	font-family: sans-serif;
+	font-family: "SFProDisplay", sans-serif;
+	font-style: normal;
+    font-weight: normal;
 	margin: 0;
 	padding: 0;
+	font-size: 20px;
+	line-height: 24px;
+	color: #2F3035;
 }
 
 ul,li {
@@ -44,3 +67,85 @@ textarea {
 	margin: 0 auto;
 }
 
+			/*header*/
+
+.header {
+
+}
+
+.header__top {
+	height: 122px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: bold;
+}
+
+.header__item {
+	display: flex;
+}
+
+.header__list + .header__list {
+	margin-left: 50px;
+}
+
+.header__list:hover {
+	border-bottom: 1px solid #2F3035;
+}
+
+.header__kabinet {
+	padding-right: 16px;
+}
+
+.cabinet__item + .cabinet__item {
+	margin-left: 10px;
+}
+
+.basket {
+	position: relative;
+}
+
+.basket::after {
+	content: '1';
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: #1C62CD;
+	border-radius: 50%;
+	bottom: -3px;
+	right: -13px;
+	font-size: 10px;
+	line-height: 12px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	padding-top: 4px;
+}
+
+.header__bottom {
+	height: 53px;
+	background: #F0F0F4;
+	padding-top: 15px;
+}
+
+.header__bottom-menu {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10px;
+}
+
+.header__bottom-menu {
+	font-weight: normal;
+}
+
+.header__bottom-link {
+	padding-bottom: 15px;
+	border-bottom: 2px solid #fff;
+	transition: all .2s ease;
+}
+
+.header__bottom-link:hover {
+	color: #000;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #2F3035;
+}
