@@ -337,7 +337,7 @@ textarea {
 }
 
 .tabs__list {
-	margin-bottom: 25px;
+	margin-bottom: 45px;
 }
 
 .tabs__content {
@@ -363,6 +363,7 @@ textarea {
 	letter-spacing: 0.12em;
 	text-transform: uppercase;
 	color: #FFFFFF;
+	cursor: pointer;
 }
 
 .tabs__content-inp {
@@ -418,4 +419,23 @@ textarea {
 	font-size: 14px;
 	line-height: 17px;
 	color: #C4C4C4;
+}
+
+
+/*popylar*/
+
+.popylar {
+
+}
+
+.popylar__tab--active {
+
+}
+
+.popylar__content {
+	display: none;
+}
+
+.popylar__content--active {
+	display: block;
 }

@@ -8,14 +8,24 @@
 
       });
 
-      $('.tabs__item').on('click',function(e){
+      $('.tab').on('click',function(e){
         e.preventDefault();
 
-        $('.tabs__item').removeClass('tabs__item--active');
+        $('.tab').removeClass('tabs__item--active');
         $(this).addClass('tabs__item--active');
 
         $('.tabs__content').removeClass('tabs__content--active');
         $($(this).attr('href')).addClass('tabs__content--active');
       });
 
+
+       $('.popylar__tab').on('click',function(e){
+        e.preventDefault();
+
+        $('.popylar__tab').removeClass('popylar__tab--active');
+        $(this).addClass('popylar__tab--active');
+
+        $('.popylar__content').removeClass('popylar__content--active');
+        $($(this).attr('href')).addClass('popylar__content--active');
+      });
   });
