@@ -8,6 +8,15 @@
 
       });
 
+       $('.popylar__content').slick({
+        slidesToShow: 4,
+        arrows:true,
+        prevArrow:'<button type="button" class="slick-prev popylar__left"><img src="../img/popylar-left.svg"></button>',
+        nextArrow:'<button type="button" class="slick-prev popylar__right"><img src="../img/popylar-right.svg"></button>',
+        dots:true
+
+      });
+
       $('.tab').on('click',function(e){
         e.preventDefault();
 
