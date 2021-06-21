@@ -769,4 +769,25 @@ h6 {
 .breadcrumbs__items-list {
 	padding-right: 16px;
 	margin-left: 10px;
+	position: relative;
+	font-size: 15px;
+	line-height: 18px;
+	color: #C4C4C4;
+}
+
+.breadcrumbs__items-list::after {
+	content: '';
+	position: absolute;
+	background: url(../img/content/Back.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 6px;
+	height: 10px;
+	top: 5px;
+	right: 0;
+}
+
+.breadcrumbs__items-list:last-child::after {
+	display: none;
 }
