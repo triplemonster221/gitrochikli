@@ -924,4 +924,5 @@ h6 {
 
 .tabs__parameters-content--active {
 	display: block;
+	font-weight: bold;
 }
