@@ -494,6 +494,23 @@ h2 {
 	display: block;
 }
 
+.popylar__like {
+	position: absolute;
+	background: url(../img/heart.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+	top: 16px;
+	right: 25px;
+	width: 24px;
+	height: 22px;
+	z-index: 999;
+}
+
+.popylar__like--active {
+	background: url(../img/heart__active.svg);
+}
+
 .popylar__box-see {
 	position: absolute;
 	display: none;
@@ -532,6 +549,41 @@ h2 {
 	font-weight: bold;
 	font-size: 30px;
 	line-height: 36px;
+}
+
+.popylar__box-non {
+	position: absolute;
+	width: 100%;
+	bottom: 30px;
+	left: 50%;
+	z-index: 999;
+	transform: translateX(-50%);	
+}
+
+.popylar__box-non {
+	display: none;
+}
+
+.popylar__box-none .popylar__box-price {
+	display: none;
+}
+
+.popylar__box-none .popylar__box-non {
+	display: block;
+}
+
+.popylar__box-efred {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+	margin-bottom: 8px;
+}
+
+.popylar__box-message {
+	font-size: 16px;
+	color: #1C62CD;
+	line-height: 19px;
+	border-bottom: 1px solid #1C62CD;
 }
 
 .popylar__left {

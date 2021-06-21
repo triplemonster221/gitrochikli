@@ -60,4 +60,12 @@
         $('.andbay__content').removeClass('andbay__content--active');
         $($(this).attr('href')).addClass('andbay__content--active');
       });
+
+       $('.popylar__like').on('click', function(e){
+        e.preventDefault();
+
+
+         $(this).toggleClass('popylar__like--active');
+         
+       });
   });
