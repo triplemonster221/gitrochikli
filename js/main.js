@@ -2,8 +2,8 @@
 
       $('.from__slaider').slick({
         arrows:true,
-        prevArrow:'<button type="button" class="slick-prev left"><img src="../img/left1.svg"></button>',
-        nextArrow:'<button type="button" class="slick-prev right"><img src="../img/right.svg"></button>',
+        prevArrow:'<button type="button" class="slick-prev left"><img src="img/left1.svg"></button>',
+        nextArrow:'<button type="button" class="slick-prev right"><img src="img/right.svg"></button>',
         dots:true
 
       });
@@ -11,8 +11,8 @@
        $('.popylar__content').slick({
         slidesToShow: 4,
         arrows:true,
-        prevArrow:'<button type="button" class="slick-prev popylar__left"><img src="../img/popylar-left.svg"></button>',
-        nextArrow:'<button type="button" class="slick-prev popylar__right"><img src="../img/popylar-right.svg"></button>',
+        prevArrow:'<button type="button" class="slick-prev popylar__left"><img src="img/popylar-left.svg"></button>',
+        nextArrow:'<button type="button" class="slick-prev popylar__right"><img src="img/popylar-right.svg"></button>',
         dots:true
 
       });
@@ -20,8 +20,8 @@
        $('.andbay__content').slick({
         slidesToShow: 4,
         arrows:true,
-        prevArrow:'<button type="button" class="slick-prev andbay__left"><img src="../img/popylar-left.svg"></button>',
-        nextArrow:'<button type="button" class="slick-prev andbay__right"><img src="../img/popylar-right.svg"></button>',
+        prevArrow:'<button type="button" class="slick-prev andbay__left"><img src="img/popylar-left.svg"></button>',
+        nextArrow:'<button type="button" class="slick-prev andbay__right"><img src="img/popylar-right.svg"></button>',
         dots:true
 
       });

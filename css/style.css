@@ -755,3 +755,18 @@ h6 {
 .footer__bottom-info + .footer__bottom-info {
 	margin-left: 81px;
 }
+
+/*breadcrumbs*/
+
+.breadcrumbs {
+	padding: 43px 0 41px;
+}
+
+.breadcrumbs__items-list {
+	display: inline-block;
+}
+
+.breadcrumbs__items-list {
+	padding-right: 16px;
+	margin-left: 10px;
+}
