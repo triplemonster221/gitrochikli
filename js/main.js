@@ -61,6 +61,16 @@
         $($(this).attr('href')).addClass('andbay__content--active');
       });
 
+       $('.tabs__parameters').on('click',function(e){
+        e.preventDefault();
+
+        $('.tabs__parameters').removeClass('tabs__parameters--active');
+        $(this).addClass('tabs__parameters--active');
+
+        $('.tabs__parameters-content').removeClass('tabs__parameters-content--active');
+        $($(this).attr('href')).addClass('tabs__parameters-content--active');
+      });
+
        $('.popylar__like').on('click', function(e){
         e.preventDefault();
 

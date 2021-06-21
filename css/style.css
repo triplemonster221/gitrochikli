@@ -891,3 +891,37 @@ h6 {
 	border: 2px solid #1C62CD;
 	color: #1C62CD;
 }
+
+.parameters__aside {
+
+}
+
+.parameters__list {
+	display: flex;
+}
+
+.tabs__parameters {
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+	color: #C4C4C4;
+}
+
+.tabs__parameters + .tabs__parameters {
+	margin-left: 42px;
+}
+
+.tabs__parameters--active {
+	padding-bottom: 7px;
+	color: #2F3035;
+	border-bottom: 2px solid #1C62CD;
+}
+
+.tabs__parameters-content {
+	display: none;
+}
+
+.tabs__parameters-content--active {
+	display: block;
+}
