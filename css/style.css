@@ -533,3 +533,39 @@ h2 {
 	width: 100%;
 	height: 100%;
 }
+
+/*andbay*/
+
+.andbay {
+	padding-top: 72px;
+}
+
+.andbay__title {
+	margin-bottom: 19px;
+}
+
+.andbay__tab {
+	margin-right: 50px;
+	margin-bottom: 5px;
+	border-bottom: 2px solid #fff;
+}
+
+.andbay__tab--active {
+	border-bottom: 2px solid #1C62CD;
+}
+
+.andbay__content  {
+	display: none;
+}
+
+.andbay__content--active {
+	display: block;
+}
+
+.andbay__left {
+	left: -40px;
+}
+
+.andbay__right {
+	right: -20px;
+}

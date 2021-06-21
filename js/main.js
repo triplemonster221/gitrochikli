@@ -17,6 +17,17 @@
 
       });
 
+       $('.andbay__content').slick({
+        slidesToShow: 4,
+        arrows:true,
+        prevArrow:'<button type="button" class="slick-prev andbay__left"><img src="../img/popylar-left.svg"></button>',
+        nextArrow:'<button type="button" class="slick-prev andbay__right"><img src="../img/popylar-right.svg"></button>',
+        dots:true
+
+      });
+
+
+
       $('.tab').on('click',function(e){
         e.preventDefault();
 
@@ -36,5 +47,17 @@
 
         $('.popylar__content').removeClass('popylar__content--active');
         $($(this).attr('href')).addClass('popylar__content--active');
+      });
+
+
+
+       $('.andbay__tab').on('click',function(e){
+        e.preventDefault();
+
+        $('.andbay__tab').removeClass('andbay__tab--active');
+        $(this).addClass('andbay__tab--active');
+
+        $('.andbay__content').removeClass('andbay__content--active');
+        $($(this).attr('href')).addClass('andbay__content--active');
       });
   });
