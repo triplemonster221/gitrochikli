@@ -926,3 +926,47 @@ h6 {
 	display: block;
 	font-weight: bold;
 }
+
+.aside__item-drop {
+	margin: 40px 0;
+}
+
+.aside__item-title {
+	font-size: 16px;
+	line-height: 19px;
+	padding-left: 26px;
+	cursor: pointer;
+}
+
+.aside__item-content {
+	display: flex;
+}
+
+.aside__item-margin + .aside__item-margin {
+	margin-left: 50px;
+}
+
+.aside__item-accord {
+	position: relative;
+	margin-bottom: 6px;
+}
+
+.aside__item-accord::after {
+	content: '';
+	position: absolute;
+	background: url(../img/up.svg);
+	width: 12px;
+	height: 8px;
+	left: 0;
+	bottom: 4px;
+}
+
+.aside__item-accord--active {
+
+}
+
+label {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+}

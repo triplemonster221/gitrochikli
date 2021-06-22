@@ -80,4 +80,9 @@
        });
 
         $('.input__style').styler();
+
+        $('.aside__item-accord').on('click',function(){
+          $(this).toggleClass('aside__item-accord--active');
+          $(this).next().slideToggle();
+        });
   });
