@@ -179,27 +179,72 @@
                   <form class="aside__form">
                     <ul class="aside__list">
                       <li class="aside__item-drop">
-                        <p class="aside__item-title aside__item-accord">
+                        <p class="aside__item-title aside__item-accord aside__item-accord--active">
                           Наличие
                         </p>
                         <div class="aside__item-content">
                           <div class="aside__item-content-box aside__item-margin">
-                            <label>
+                            <label class="aside__item-label">
                               <input class="input__style" type="checkbox">
                               В наличие
                             </label>
                           </div>
                           <div class="aside__item-content-box aside__item-margin">
-                            <label>
+                            <label class="aside__item-label">
                               <input class="input__style" type="checkbox">
                               Под заказ
                             </label>
                           </div>
                         </div>
                       </li>
-                      <li class="aside__item"></li>
-                      <li class="aside__item"></li>
-                      <li class="aside__item"></li>
+                      <li class="aside__item-drop">
+                        <p class="aside__item-title aside__item-accord aside__item-accord--active">
+                          Новинки
+                        </p>
+                        <div class="aside__item-content">
+                          <div class="aside__item-content-box aside__item-marginmin">
+                            <label class="aside__item-label">
+                              <input class="input__style" name="radio" type="radio">
+                              Все
+                            </label>
+                          </div>
+                          <div class="aside__item-content-box aside__item-marginmin">
+                            <label class="aside__item-label">
+                              <input class="input__style" name="radio" type="radio">
+                              Новинки
+                            </label>
+                          </div>
+                          <div class="aside__item-content-box aside__item-marginmin">
+                            <label class="aside__item-label">
+                              <input class="input__style" name="radio" type="radio">
+                              Акции
+                            </label>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="aside__item">
+                         <p class="aside__item-title aside__item-accord aside__item-accord--active">
+                          Цена
+                        </p>
+                        <div class="aside__item-content">
+                          <input type="text" class="js-range-slider" name="my_range" value="" data-min="100000" data-max="500000" data-from="152000" data-to="400000" data-grid="false"
+                          />
+                        </div>
+                      </li>
+                      <li class="aside-item__list">
+                        <p class="aside-item__list-title">
+                          Мощность, л.с.
+                        </p>
+                        <select class="input__style">
+                          <option value=""></option>
+                          <option value=""></option>
+                          <option value=""></option>
+                          <option value=""></option>
+                        </select>
+                      </li>
+                      <li class="aside-item">
+                        
+                      </li>
                       <li class="aside__item"></li>
                       <li class="aside__item"></li>
                       <li class="aside__item"></li>
@@ -623,8 +668,9 @@
   </footer>
 
 
-   <script src="js/ion.rangeSlider.min.js"></script>
+   
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="js/ion.rangeSlider.min.js"></script>
    <script src="js/jquery.formstyler.min.js"></script>
    <script src="js/slick.js"></script>
    <script src="js/jquery.rateyo.min.js"></script>

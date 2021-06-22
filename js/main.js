@@ -85,4 +85,9 @@
           $(this).toggleClass('aside__item-accord--active');
           $(this).next().slideToggle();
         });
+
+        $(".js-range-slider").ionRangeSlider({
+          type:"double",
+          grid: true,
+        });
   });
