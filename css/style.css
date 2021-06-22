@@ -1085,3 +1085,62 @@ h6 {
 .irs--flat .irs-handle.state_hover>i:first-child, .irs--flat .irs-handle:hover>i:first-child {
 	background-color: transparent;
 }
+
+.aside-item__list {
+	margin: 80px 0 40px;
+}
+
+.aside-filter__list-title {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	color: #2F3035;
+}
+
+.aside-filter__list {
+	display: flex;
+	border-bottom: 2px solid #C4C4C4;
+	justify-content: space-between;
+}
+
+.aside-filter__list-select {
+
+}
+
+.jq-selectbox__select {
+  height: 32px;
+  padding: 0 45px 0 10px;
+  border: none;
+  border-radius: 0;
+  font-size: 14px;
+	line-height: 17px;
+  background:transparent;
+  box-shadow: none;
+  color: #48494D;
+  text-shadow: none;
+}
+
+.jq-selectbox__trigger {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 34px;
+  height: 100%;
+  border-left: none;
+}
+
+.jq-selectbox__trigger-arrow {
+  position: absolute;
+  top: 4px;
+  right: 28px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background: url(../img/up.svg);
+  width: 12px;
+  height: 8px;
+}
+
+.jq-selectbox__dropdown {
+	bottom: -102px;
+}
