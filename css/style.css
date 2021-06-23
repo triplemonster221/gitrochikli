@@ -1279,3 +1279,26 @@ h6 {
 	cursor: pointer;
 	border-bottom: 1px solid #C4C4C4;
 }
+
+.catalog__btn .input__style {
+	width: 178px;
+	border: 1.5px solid #D7D9DF;
+	font-size: 14px;
+	line-height: 17px;
+
+}
+
+.jq-selectbox__select {
+	height: 17;
+	padding: 6px 5px 0 20px;
+}
+
+.jq-selectbox__trigger-arrow {
+	top: 10px;
+  right: 11px;
+  transform: rotate(180deg);
+}
+
+.cat-bt {
+	opacity: 1;
+}
