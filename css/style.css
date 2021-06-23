@@ -538,6 +538,7 @@ h3 {
 .popylar__box-title {
 	display: block;
 	width: 230px;
+	font-weight: normal;
 	margin-bottom: 25px;
 	font-size: 18px;
 	line-height: 21px;
@@ -560,6 +561,10 @@ h3 {
 	transform: translateX(-50%);	
 }
 
+.parameters__items .popylar__box-non {
+	bottom: 15px;
+}
+
 .popylar__box-non {
 	display: none;
 }
@@ -577,6 +582,10 @@ h3 {
 	font-size: 18px;
 	line-height: 21px;
 	margin-bottom: 8px;
+}
+
+.parameters__items .popylar__box-efred {
+	margin-bottom: 0;
 }
 
 .popylar__box-message {
@@ -1565,4 +1574,36 @@ td {
     margin: 2.7px;
     border-radius: 0px;
     background: #1C62CD;
+}
+
+.catalog-info__table-title {
+	text-align: start;
+	padding-bottom: 41px;
+	border-bottom: none;
+}
+
+.catalog-info__table-rowtitle {
+	border-bottom: none;
+}
+
+.catalog-info__table-row {
+	border-bottom: 1px solid rgba(47, 48, 53, .2);
+}
+
+.catalog-info__table-text {
+	color: rgba(47, 48, 53, .6);
+}
+
+.catalog-info__table-btn {
+	width: 140px;
+	padding: 10px 0 9px;
+	background: #1C62CD;
+	border-radius: 3px;
+	text-align: center;
+	font-size: 13px;
+	line-height: 16px;
+	letter-spacing: 0.12em;
+	color: #FFFFFF;
+	border: none;
+	cursor: pointer;
 }
