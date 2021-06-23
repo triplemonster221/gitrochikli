@@ -1227,3 +1227,55 @@ h6 {
 .aside-item .jq-checkbox.checked .jq-checkbox__div {
 	display: none;
 }
+
+.filter__more {
+	text-align: center;
+}
+
+.filter__more-use {
+	width: 255px;
+	height: 50px;
+	background: #F0F0F4;
+	padding: 17px 10px 15px;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: #BDBEC2;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.filter__more-dop {
+	font-size: 13px;
+	line-height: 16px;
+	color: #2F3035;
+	background: transparent;
+	border: none;
+	padding-right: 22px;
+	position: relative;
+	cursor: pointer;
+}
+
+.filter__more-dop::after {
+	content: '';
+	position: absolute;
+	background: url(../img/content/Shape.svg);
+	right: 0;
+	top: 6px;
+	width: 12px;
+	height: 8px;
+}
+
+.filter__more-clea {
+	font-size: 13px;
+	line-height: 16px;
+	color: #C4C4C4;
+	background: transparent;
+	border: none;
+	padding-bottom: 2px;
+	cursor: pointer;
+	border-bottom: 1px solid #C4C4C4;
+}
