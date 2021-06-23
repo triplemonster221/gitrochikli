@@ -1183,3 +1183,47 @@ h6 {
 	outline: none;
 	margin: 10px 0;
 }
+
+.aside-item .aside__item-content {
+	flex-wrap: nowrap;
+}
+
+.aside__countre {
+	position: absolute;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.07em;
+	color: #BDBEC2;
+	z-index: 3;
+	top: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.aside-item .aside__item-label {
+	position: relative;
+}
+
+.aside-item .jq-checkbox.input__style.checked ~ span{
+	color: #fff;
+ }
+
+.aside-item .jq-checkbox.input__style {
+	border: none;
+  box-shadow: none;
+  background: #F0F0F4;
+  width: 63px;
+  height: 25px;
+  border-radius: none;
+  vertical-align: -2px;
+  margin: 0;
+}
+
+.aside-item .jq-checkbox.input__style.checked{
+	background: #1C62CD;
+}
+
+.aside-item .jq-checkbox.checked .jq-checkbox__div {
+	display: none;
+}
