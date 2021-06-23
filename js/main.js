@@ -28,7 +28,17 @@
 
 
 
-      $('.tab').on('click',function(e){
+      $('.product__tabs-list').on('click',function(e){
+        e.preventDefault();
+
+        $('.product__tabs-list').removeClass('product__tabs-list--active');
+        $(this).addClass('product__tabs-list--active');
+
+        $('.product-tabs__content-item').removeClass('product-tabs__content-item--active');
+        $($(this).attr('href')).addClass('product-tabs__content-item--active');
+      });
+
+       $('.tab').on('click',function(e){
         e.preventDefault();
 
         $('.tab').removeClass('tabs__item--active');
