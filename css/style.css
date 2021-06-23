@@ -1607,3 +1607,13 @@ td {
 	border: none;
 	cursor: pointer;
 }
+
+.product-wrap__list-rateo {
+	display: flex;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.product-wrap__list-rateo a {
+	margin-right: 29px;
+}

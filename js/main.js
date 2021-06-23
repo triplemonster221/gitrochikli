@@ -100,4 +100,8 @@
           type:"double",
           grid: true,
         });
+
+        $(".rate-Yo").rateYo({
+          rating: 3.6
+        });
   });
