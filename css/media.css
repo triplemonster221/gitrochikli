@@ -1,3 +1,23 @@
-@media screen and (max-width: 1215px) {
-	
+@media screen and (max-width: 940px) {
+	.header__item {
+		display: none;
+	}
+
+	.burger {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 532px) {
+	.header__logo-dest {
+		display: none;
+	}
+
+	.header__logo-mobile {
+		display: block;
+	}
+
+	.header__street {
+		display: none;
+	}
 }
