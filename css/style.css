@@ -1636,3 +1636,13 @@ td {
 .header__logo-mobile {
 	display: none;
 }
+
+.sub-menu {
+	display: flex;
+	justify-content: space-between;
+  padding: 0 10px;
+}
+
+.sub-menu {
+	display: none;
+}
