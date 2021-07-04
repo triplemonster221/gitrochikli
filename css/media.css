@@ -35,6 +35,15 @@
 	.sub-menu {
 		display: flex;
 	}
+
+	.footer__top {
+		flex-direction: column;
+	}
+
+	.footer__social {
+		margin-top: 27px
+	}
+
 }
 
 @media screen and (max-width:868px) {
@@ -62,6 +71,14 @@
 
 }
 
+@media screen and (max-width: 573px) {
+	.footer__top {
+		flex-direction: column;
+	}
+
+
+}
+
 @media screen and (max-width: 532px) {
 	.header__logo-dest {
 		display: none;
@@ -78,7 +95,6 @@
 	.collection__box {
 		padding: 13px 12px 14px 7px;
 	}
-
 
 }
 
