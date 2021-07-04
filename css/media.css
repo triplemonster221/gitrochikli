@@ -43,7 +43,7 @@
 	}
 
 	.tabs__list {
-		width: 823px;
+		width: 896px;
 	}
 }
 
@@ -86,5 +86,9 @@
 @media screen and (max-width: 400px) {
 	.collection__box {
 		max-width: 302px;
+	}
+
+	.andbay__title {
+		text-align: center
 	}
 }
