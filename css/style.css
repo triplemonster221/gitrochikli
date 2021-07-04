@@ -335,6 +335,7 @@ section.from {
 	margin-bottom: 45px;
 }
 
+
 .tabs__content {
 	display: flex;
 	display: none;
@@ -1645,4 +1646,28 @@ td {
 
 .sub-menu {
 	display: none;
+}
+
+.slick-dots {
+	bottom: -35px;
+}
+
+.slick-dots li.slick-active {
+	background: #1C62CD;
+}
+
+.slick-dots li {
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	background: #C4C4C4;
+	border: none;
+}
+
+.slick-dots li button {
+	outline: none;
+}
+
+.slick-dots li + li {
+	margin-left: 21px;
 }

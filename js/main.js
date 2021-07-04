@@ -13,7 +13,31 @@
         arrows:true,
         prevArrow:'<button type="button" class="slick-prev popylar__left"><img src="img/popylar-left.svg"></button>',
         nextArrow:'<button type="button" class="slick-prev popylar__right"><img src="img/popylar-right.svg"></button>',
-        dots:true
+        dots:false,
+        responsive: [
+           {
+            breakpoint: 1250,
+            settings: {
+              arrows:false,
+              slidesToShow: 3,
+               dots:true
+            }
+          },
+          {
+            breakpoint: 864,
+            settings: {
+              arrows:false,
+              slidesToShow: 2
+            }
+          },
+           {
+            breakpoint: 629,
+            settings: {
+              arrows:false,
+              slidesToShow: 1
+            }
+          },
+        ]
 
       });
 
