@@ -52,6 +52,14 @@
 		grid-template-columns: 1fr;
 	}
 
+	.second-banner__desktop {
+		display: none;
+	}
+
+	.second-banner__mobile {
+		display: block;
+	}
+
 }
 
 @media screen and (max-width: 532px) {
@@ -70,6 +78,8 @@
 	.collection__box {
 		padding: 13px 12px 14px 7px;
 	}
+
+
 }
 
 

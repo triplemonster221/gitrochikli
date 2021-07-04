@@ -631,6 +631,14 @@ h3 {
 	height: 100%;
 }
 
+.second-banner-link img {
+	width: 100%;
+}
+
+.second-banner__mobile {
+	display: none;
+}
+
 /*andbay*/
 
 .andbay {
