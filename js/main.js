@@ -85,6 +85,10 @@
         ]
       });
 
+        $('.burger').on('click', function(){
+          $('.header__bottom-menu').toggleClass('header__bottom-menu--active')
+        });
+
 
 
       $('.product__tabs-list').on('click',function(e){
@@ -168,6 +172,8 @@
         $(".rate-Yo").rateYo({
           rating: 3.6
         });
+
+
 
 
   });

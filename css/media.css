@@ -89,10 +89,43 @@
 
 	.burger {
 		display: block;
+		z-index: 20;
+		position: absolute;
+	}
+
+
+	.header__bottom-menu--active::after{}
+
+	.header {
+		position: relative;
 	}
 
 	.header__bottom-menu {
-		display: none;
+		position: absolute;
+		background: #fff;
+		display: block;
+    	z-index: 3;
+    	width: 90%;
+    	height: 100vh;
+    	padding: 46px 0 0 125px;
+    	top: 0;
+    	transform: translateX(-200%);
+    	transition: all .5s ease;
+	}
+
+	.header__bottom-menu--active {
+		display: block;
+		transform: translateX(0);
+	}
+
+	.header__bottom__list + .header__bottom__list {
+		margin-top: 46px;
+	}
+
+	.header__bottom__list {
+		display: block;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		transform: matrix(1, 0, 0, 1, 0, 0);
 	}
 
 	.sub-menu {
