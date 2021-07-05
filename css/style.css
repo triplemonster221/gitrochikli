@@ -1683,3 +1683,7 @@ td {
 .product-wrap__list-btnMobile {
 	display: none;
 }
+
+.header__bottom__listMobile {
+	display: none;
+}

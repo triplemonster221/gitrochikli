@@ -123,9 +123,53 @@
 	}
 
 	.header__bottom__list {
+		position: relative;
 		display: block;
 		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 		transform: matrix(1, 0, 0, 1, 0, 0);
+	}
+
+	.header__bottom-link {
+		display: block;
+		width: 100%;
+	}
+
+	.header__bottom__listMobile {
+		display: block;
+	}
+
+	.header__bottom__listMobile::after {
+		content: '';
+		position: absolute;
+		background-repeat: no-repeat;
+		width: 25px;
+		height: 22px;
+		left: -45px;
+		top: 0;
+	}
+
+	.header__bottom__listMobile-user::after {
+		background-image: url(../img/man.svg);
+	}
+
+	.header__bottom__listMobile-heart::after {
+		background-image: url(../img/heart.svg);
+	}
+
+	.header__bottom__listMobile-basket::after {
+		background-image: url(../img/basket.svg);
+	}
+
+	.header__bottom__listMobile-house::after {
+		background-image: url(../img/house.svg);
+	}
+
+	.header__bottom__listMobile-proc::after {
+		background-image: url(../img/proc.svg);
+	}
+
+	.header__bottom__listMobile-dostavka::after {
+		background-image: url(../img/dostavka.svg);
 	}
 
 	.sub-menu {
