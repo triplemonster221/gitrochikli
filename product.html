@@ -17,11 +17,16 @@
   <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-  <header class="header" id="header">
+ <header class="header" id="header">
     <div class="container">
       <div class="header__inner">
         <div class="header__top">
           <nav class="menu">
+            <button class="burger">
+              <span class="burger__item"></span>
+              <span class="burger__item"></span>
+              <span class="burger__item"></span>
+            </button>
             <ul class="header__item">
               <li class="header__list">
                 <a href="#" class="header__link">
@@ -41,7 +46,8 @@
             </ul>
           </nav>
           <a href="#" class="header__logo">
-            <img src="img/лого.svg" alt="DRIVE MOTO" width="80" height="76">
+            <img class="header__logo-dest" src="img/лого.svg" alt="DRIVE MOTO" width="80" height="76">
+            <img class="header__logo-mobile" src="img/DRIVE MOTO.jpg" alt="">
           </a>
           <p class="header__street">
             Москва,  ул. Науки  25
@@ -59,6 +65,25 @@
           </div>
         </div>
         <div class="header__bottom">
+          <div class="search__inner-wrap">
+            <ul class="sub-menu">
+              <li class="sub-menu__item">
+                <a href="#" class="sub-menu__link">
+                  Магазины
+                </a>
+              </li>
+              <li class="sub-menu__item">
+                <a href="#" class="sub-menu__link">
+                  Акции
+                </a>
+              </li>
+              <li class="sub-menu__item">
+                <a href="#" class="sub-menu__link">
+                  Доставка и оплата
+                </a>
+              </li>
+            </ul>
+          </div>
           <ul class="header__bottom-menu">
             <lu class="header__bottom__list">
               <a class="header__bottom-link" href="#">
@@ -101,7 +126,7 @@
               </a>
             </lu>
           </ul>
-        </div>
+        </div> 
       </div>
     </div>
   </header>
@@ -126,7 +151,7 @@
       </ul>
     </div>
   </div>
- <section class="product" id="product">
+  <section class="product" id="product">
    <div class="container">
      <div class="product__inner">
        <div class="product-wrap">
@@ -142,6 +167,9 @@
            <a class="product-wrap__car-link" href="#">
              Нашли дешевле? Снизим цену!
            </a>
+           <button class="product-wrap__list-btn product-wrap__list-btnMobile" type="submit">
+               купить
+            </button>
           </div>
            <div class="product-wrap__list">
              <h1 class="product-wrap__list-title">
@@ -197,6 +225,7 @@
  <section class="product-menu" id="product-menu">
    <div class="container">
      <div class="product-menu__inner">
+      <div class="product__inner-wrap">
        <ul class="product-menu__item">
         <li class="product-menu__list">
           <a href="#" class="product-menu__link">
@@ -234,6 +263,7 @@
           </a>
         </li>
        </ul>
+     </div>
      </div>
    </div>
  </section>
@@ -394,7 +424,7 @@
  </section>
 
 
- <section class="andbay" id="andbay">
+ <!--<section class="andbay" id="andbay">
     <div class="container">
       <div class="andbay__inner">
         <h3 class="andbay__title">
@@ -1306,7 +1336,7 @@
           </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <footer class="footer" id="footer">
     <div class="container">
       <div class="footer__inner">
@@ -1324,8 +1354,8 @@
             </form>
           </div>
           <div class="footer__item">
-            <div class="footer__item-list">
-              <h6 class="footer__item-title">
+            <div class="footer__item-listbox">
+              <h6 class="footer__item-title footer__item-titledrop">
                 Интернет-магазин
               </h6>
               <ul class="footer__item-menu">
@@ -1343,8 +1373,8 @@
                 </li>
               </ul>
             </div>
-            <div class="footer__item-list">
-              <h6 class="footer__item-title">
+            <div class="footer__item-listbox">
+              <h6 class="footer__item-title footer__item-titledrop">
                 Информация
               </h6>
               <ul class="footer__item-menu">
@@ -1388,7 +1418,7 @@
         </div>  
       </div>
     </div>
-  </footer>
+  </footer> 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
    <script src="js/ion.rangeSlider.min.js"></script>
    <script src="js/jquery.formstyler.min.js"></script>

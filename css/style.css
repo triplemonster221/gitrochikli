@@ -1679,3 +1679,7 @@ td {
 .slick-dots li + li {
 	margin-left: 21px;
 }
+
+.product-wrap__list-btnMobile {
+	display: none;
+}

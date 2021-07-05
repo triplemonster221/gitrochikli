@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>catalog</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
@@ -22,6 +22,11 @@
       <div class="header__inner">
         <div class="header__top">
           <nav class="menu">
+            <button class="burger">
+              <span class="burger__item"></span>
+              <span class="burger__item"></span>
+              <span class="burger__item"></span>
+            </button>
             <ul class="header__item">
               <li class="header__list">
                 <a href="#" class="header__link">
@@ -41,7 +46,8 @@
             </ul>
           </nav>
           <a href="#" class="header__logo">
-            <img src="img/лого.svg" alt="DRIVE MOTO" width="80" height="76">
+            <img class="header__logo-dest" src="img/лого.svg" alt="DRIVE MOTO" width="80" height="76">
+            <img class="header__logo-mobile" src="img/DRIVE MOTO.jpg" alt="">
           </a>
           <p class="header__street">
             Москва,  ул. Науки  25
@@ -59,6 +65,25 @@
           </div>
         </div>
         <div class="header__bottom">
+          <div class="search__inner-wrap">
+            <ul class="sub-menu">
+              <li class="sub-menu__item">
+                <a href="#" class="sub-menu__link">
+                  Магазины
+                </a>
+              </li>
+              <li class="sub-menu__item">
+                <a href="#" class="sub-menu__link">
+                  Акции
+                </a>
+              </li>
+              <li class="sub-menu__item">
+                <a href="#" class="sub-menu__link">
+                  Доставка и оплата
+                </a>
+              </li>
+            </ul>
+          </div>
           <ul class="header__bottom-menu">
             <lu class="header__bottom__list">
               <a class="header__bottom-link" href="#">
@@ -101,7 +126,7 @@
               </a>
             </lu>
           </ul>
-        </div>
+        </div> 
       </div>
     </div>
   </header>
@@ -738,8 +763,8 @@
             </form>
           </div>
           <div class="footer__item">
-            <div class="footer__item-list">
-              <h6 class="footer__item-title">
+            <div class="footer__item-listbox">
+              <h6 class="footer__item-title footer__item-titledrop">
                 Интернет-магазин
               </h6>
               <ul class="footer__item-menu">
@@ -757,8 +782,8 @@
                 </li>
               </ul>
             </div>
-            <div class="footer__item-list">
-              <h6 class="footer__item-title">
+            <div class="footer__item-listbox">
+              <h6 class="footer__item-title footer__item-titledrop">
                 Информация
               </h6>
               <ul class="footer__item-menu">
@@ -802,7 +827,7 @@
         </div>  
       </div>
     </div>
-  </footer>
+  </footer> 
 
 
    

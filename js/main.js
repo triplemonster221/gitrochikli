@@ -4,7 +4,15 @@
         arrows:true,
         prevArrow:'<button type="button" class="slick-prev left"><img src="img/left1.svg"></button>',
         nextArrow:'<button type="button" class="slick-prev right"><img src="img/right.svg"></button>',
-        dots:true
+        dots:true,
+         responsive: [
+           {
+            breakpoint: 770,
+            settings: {
+              arrows:false,
+            }
+          },
+        ]
 
       });
 
@@ -132,6 +140,11 @@
         $($(this).attr('href')).addClass('tabs__parameters-content--active');
       });
 
+        $('.footer__item-titledrop').on('click', function(){
+          $(this).next().slideToggle();
+          $(this).toggleClass('footer__item-titledrop--active');
+        });
+
        $('.popylar__like').on('click', function(e){
         e.preventDefault();
 
@@ -155,4 +168,6 @@
         $(".rate-Yo").rateYo({
           rating: 3.6
         });
+
+
   });
